@@ -1,0 +1,33 @@
+.ui.image {
+  height: 39px;
+  width: 109px;
+}
+.ui.borderless.menu {
+  padding: 10px 20% 10px 20%;
+  box-shadow: none;
+}
+.ui.three.column.grid {
+  padding: 0 20% 0 20%;
+  background-color: lightgray;
+  align-items: center;
+}
+#login {
+  padding: 0 32% 0 32%;
+}
+.ui.button {
+  background-color: blue;
+  color: white;
+}
+.middle.options {
+  height: 136px;
+  width: 136px;
+}
+#middle {
+  text-align: center;
+}
+#middle-2 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

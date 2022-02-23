@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Capital One</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ui borderless menu">
+    <img class="ui image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Capital_One_logo.svg/2560px-Capital_One_logo.svg.png" alt="Capital One">
+    <a class="item">Credit Cards</a>
+    <a class="item">Checking & Savings</a>
+    <a class="item">Auto</a>
+    <a class="item">Business</a>
+    <a class="item">Commercial</a>
+    <a class="item">Learn & Grow</a>
+    <a class="right item"><i class="search icon"></i></a>
+    <a class="item"><i class="question circle outline icon"></i></a>
+    <a class="item"><i class="map marker alternate icon"></i></a>
+    <a class="item"><i class="user outline icon"></i>Sign In</a>
+
+  </div>
+  <div class="ui three column grid" id="login">
+      <div class="ui column">
+        Username<br />
+        <div class="ui left icon input">
+          <i class="user outline icon"></i>
+          <input type="text">
+        </div>
+        <br />
+        <input type="checkbox">
+        Remember Me
+      </div>
+      <div class="ui column">
+        Password <br />
+        <div class="ui left icon input">
+          <i class="lock icon"></i>
+          <input type="text">
+        </div>
+        <br />
+        <a href="#">Forgot Username or Password?</a>
+      </div>
+      <div class="ui column">
+        <br />
+        <button class="ui button">Sign In</button><br />
+        <a href="#">Set Up Online Access</a>
+      </div>
+
+  </div>
+  <img class="ui fluid image" src="" alt="Credit Cards Picture"><br />
+  <div class="ui three column grid" id="middle">
+    <div class="column">
+      <img class="middle options" src="https://ecm.capitalone.com/WCM/homepage/illustrations/ehp-pa-callout-v2.svg" alt="Impact">
+      <h2>No impact, no worries</h2>
+      <p>Check if you're pre-approved for card offers with no impact to your credit score.</p>
+      <a href="#">See if I'm Pre-Approved<i class="angle right icon"></i></a>
+    </div>
+    <div class="column">
+      <img class="middle options" src="https://ecm.capitalone.com/WCM/homepage/photos/checking_icon_extra_space.svg" alt="Mobile Checking">
+      <h2>360 Checking</h2>
+      <p>No fees, no minimums and early direct deposit—talk about easy decisions. </p>
+      <a href="#">Get 360 Checking<i class="angle right icon"></i></a>
+    </div>
+    <div class="column">
+      <img class="middle options" src="https://ecm.capitalone.com/WCM/homepage/testing/photos/autonavigator_272px---updated.svg" alt="Car Buying">
+      <h2>Easier Car Buying</h2>
+      <p>Pre-qualify to see your real rate and payment before visiting the dealer.</p>
+      <a href="#">Check Out Auto Navigator<i class="angle right icon"></i></a>
+    </div>
+  </div>
+  <br />
+  <div id="middle-2">
+    <div>
+      <h5>HOW CAN WE HELP</h5>
+    </div>
+    <div class="ui inline dropdown">
+      <input type="hidden">
+      I want to
+      <div class="text">grow my money</div>
+      <i class="dropdown icon"></i>
+      <div class="menu">
+        <div class="item">grow my money</div>
+        <div class="item">prevent fraud</div>
+        <div class="item">work on my credit</div>
+      </div>
+    </div>
+    <br />
+    <div class="ui inline dropdown">
+      <input type="hidden">
+      So that I can
+      <div class="text">sleep better at night</div>
+      <i class="dropdown icon"></i>
+      <div class="menu">
+        <div class="item">sleep better at night</div>
+        <div class="item">help me feel secure</div>
+        <div class="item">buy a car</div>
+        <div class="item">protect my future</div>
+      </div>
+    </div>
+    <h4>We'll offer ideas to help you meet your goal.</h4>
+    <button class="ui button">See Suggestions</button>
+  </div>
+
+
+
+  <script>
+    $('.ui.dropdown')
+      .dropdown()
+    ;
+  </script>
+</body>
+</html>
